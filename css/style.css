@@ -14,7 +14,7 @@
 
 	body
 	{
-		background: #C3D0D9;
+		background: #f5f7fa;
 	}
 
 		body.is-loading *
@@ -579,8 +579,9 @@
 		/*background-color:		#f08c89;*/
 		/*background-image:		url('images/header.svg');*/
 		/*background-size:		100% 620%;*/
-
+		background-color: #C3D0D9;
 		background-image: url('../images/header-leme-1.jpg');
+		background-repeat: no-repeat;
 		/*background-image:		url('images/overlay.png'),	url('images/header.svg'),	-moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
 		background-image:		url('images/overlay.png'),	url('images/header.svg'),	-webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
 		background-image:		url('images/overlay.png'),	url('images/header.svg'),	-o-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
@@ -594,7 +595,7 @@
 		{
 			padding: 10em 0 6em 0;
 			/*background-size:	128px 128px,				100% 100%,					auto;*/
-			background-size: 100%;
+			background-size: 100% 100%;
 		}
 
 	#promo-wrapper

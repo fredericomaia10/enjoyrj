@@ -29,14 +29,14 @@
 			margin-bottom: 2em;
 		}
 
-		header
-		{
-		}
+		/*header*/
+		/*{*/
+		/*}*/
 
-			header.major
-			{
-				text-align: left;
-			}
+			/*header.major*/
+			/*{*/
+				/*text-align: left;*/
+			/*}*/
 
 	/* Image */
 
@@ -100,17 +100,28 @@
 			text-align: center;
 		}
 
+		ul.actions {
+			padding-top: 0;
+		}
+
+		#hero .button {
+			font-size: 1em;
+		}
+
+		header > p {
+			padding: 0;
+		}
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
 
 	#logo
 	{
-		position: relative;
-		left: 0;
-		top: 0;
-		margin: 0;
-		width: 100%;
+		/*position: relative;*/
+		/*left: 0;*/
+		/*top: 0;*/
+		/*margin: 0;*/
+		/*width: 100%;*/
 	}
 
 /*********************************************************************************/

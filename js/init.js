@@ -17,29 +17,6 @@
 			'mobilep': { range: '-480', href: 'css/style-mobilep.css', grid: { gutters: 20 } }
 		},
 		plugins: {
-			layers: {
-				navPanel: {
-					hidden: true,
-					breakpoints: 'mobile',
-					position: 'top-left',
-					side: 'top',
-					animation: 'pushY',
-					width: '100%',
-					height: { mobilep: 300, mobile: 180 },
-					clickToHide: true,
-					swipeToHide: false,
-					html: '<a href="index.html" class="link depth-0">Home</a><div data-action="navList" data-args="nav"></div>',
-					orientation: 'vertical'
-				},
-				navButton: {
-					breakpoints: 'mobile',
-					position: 'top-center',
-					side: 'top',
-					height: 50,
-					width: 100,
-					html: '<div class="toggle" data-action="toggleLayer" data-args="navPanel"></div>'
-				}
-			}
 		}
 	});
 

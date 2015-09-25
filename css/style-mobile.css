@@ -84,15 +84,15 @@
 
 	#logo
 	{
-		position: relative;
+		/*position: relative;*/
 	}
 	
 		#logo a
 		{
-			border: solid 1px rgba(255,255,255,0.75);
-			border-radius: 0.35em;
-			height: 3em;
-			line-height: 3em;
+			/*border: solid 1px rgba(255,255,255,0.75);*/
+			/*border-radius: 0.35em;*/
+			/*height: 3em;*/
+			/*line-height: 3em;*/
 		}
 
 /*********************************************************************************/
