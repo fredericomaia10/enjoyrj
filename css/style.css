@@ -957,3 +957,8 @@
 	#social-right a {
 		border-bottom: 0;
 	}
+
+	#sports .icon-sport {
+		display: inline-block;
+		width: 43%;
+	}
