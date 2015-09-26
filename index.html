@@ -16,13 +16,19 @@
         <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
     </head>
     <body class="homepage">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=687078888088627";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <!-- Header -->
     <div id="header-wrapper">
         <div id="header" class="container">
-            <!-- Logo -->
             <h1 id="logo"><a href="#"><span>Enjoy Rio</span></a></h1>
         </div>
-
         <!-- Hero -->
         <section id="hero" class="container">
             <header>
@@ -59,7 +65,7 @@
                         <h2>Chega de ir &agrave; praia e s&oacute; ficar olhando a paisagem!</h2>
                     </header>
                     <p>Tudo bem, a gente tamb&eacute;m adora n&atilde;o fazer nada e s&oacute; curtir a paisagem.
-                        Mas os melhores momentos s&atilde;o quando a gente est&aacute; se divertindo e se movimentando.
+                        Mas lembre-se que os melhores momentos s&atilde;o quando a gente est&aacute; se divertindo e se movimentando.
                         Faz bem pro corpo e pra alma!</p>
                     <!--<ul class="actions">-->
                         <!--<li><a href="#" class="button">Elevate my awareness</a></li>-->
@@ -89,9 +95,15 @@
     <!-- Promo -->
     <div id="promo-reserva" data-id="image_background" class="background editable" style="background-image: url('css/images/overlay.png'), url('images/promo.jpg');">
         <section id="promo">
-            <h2>Como reservar? Fale com a gente pelo whatsapp, ou ligue, e a gente leva pra voc&ecirc;!
-                Entregamos em Copacabana, Leme ou Ipanema. O telefone &eacute; (21)99739-3236.</h2>
-            <!--<a href="#" class="button">Breach the thresholds</a>-->
+            <h2>Como reservar? Faça sua <a href="https://goo.gl/mH3aXW" target="_blank">pré-reserva online</a>.
+                Ou fale com a gente pelo whatsapp.
+                Ok, você pode ligar também, acho que nosso smartfone ainda tem essa função. :)
+                O número &eacute; (21)99739-3236. Entregamos em Copacabana, Leme ou Ipanema.</h2>
+            <ul class="actions" style="padding-top: 1em;">
+                <li>
+                    <a href="https://goo.gl/mH3aXW" class="button" target="_blank">Fazer pré-reserva online!</a>
+                </li>
+            </ul>
         </section>
     </div>
 
@@ -140,9 +152,24 @@
         </section>
     </div>
 
-    <!-- Footer -->
-    <div id="promocao">
+    <div id="footer-wrapper" style="padding: 2em; background-color: #4A6CF3;">
         <div id="footer" class="container">
+            <div class="row">
+                <h2 style="color: #fff;">Nossas redes sociais</h2>
+                <h3 style="color: #fff;">Junte-se a centenas de pessoas que nos acompanham e nos recomendam!</h3>
+                <section class="12u 12u(2)">
+                    <div class="row 0%">
+                        <div class="fb-page" data-href="https://www.facebook.com/Enjoy-Rio-Divers&#xe3;o-e-esportes-1602950846623205/"
+                             data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"
+                             data-show-posts="false"></div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div id="promocao">
+        <div class="container">
             <header class="major">
                 <h2>Promo&ccedil;&atilde;o! Divers&atilde;o em dobro!</h2>
                 <p style="color: #4A6CF3;">
@@ -159,18 +186,6 @@
                     </li>
                 </ul>
             </header>
-            <div class="row">
-                <h3>Acompanhe nossas novidades pelo Facebook</h3>
-                <section class="12u 12u(2)">
-                    <div class="row 0%">
-                        <ul class="divided icons 6u 12u(3) fakesocialleftrows" data-rows-selector=".fakesocialleftrow" data-rows-field="socialLeft">
-                            <li data-index="1" data-id="iconClass_socialLeft_1" class="icon fa-facebook fakesocialleftrow" data-disable-picker-focus="">
-                              <span><a href="https://www.facebook.com/Enjoy-Diversão-e-esportes-1602950846623205/" target="_blank">Enjoy Rio - Diversão e Esportes</a></span>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-            </div>
         </div>
         <div id="copyright" class="container">
             <ul class="menu">
@@ -178,5 +193,6 @@
             </ul>
         </div>
     </div>
+
     </body>
 </html>

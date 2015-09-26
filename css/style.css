@@ -947,3 +947,13 @@
 		padding-top: 1em;
 		margin-top: 2em;
 	}
+
+	#social-right {
+		float: left;
+		position: fixed;
+		margin-left: 96%;
+	}
+
+	#social-right a {
+		border-bottom: 0;
+	}
