@@ -638,6 +638,7 @@
 		position: absolute;
 		z-index: 1;
 		right: 0;
+		margin-top: 2em;
 	}
 
 		#logo a
