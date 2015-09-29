@@ -634,6 +634,11 @@
 		width: 15em;
 		margin-left: -7.5em;
 	}
+	.translate {
+		position: absolute;
+		z-index: 1;
+		right: 0;
+	}
 
 		#logo a
 		{
